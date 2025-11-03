@@ -45,6 +45,9 @@ public class Main {
    }
    public static void main(String[] Args) {
       Main m = new Main();
-      System.out.println(m.dateIsBefore(1,26,7,27));
+      System.out.println(m.dateIsBefore(6,3,9,20));
+      System.out.println(m.dateIsBefore(10,1,2,25));
+      System.out.println(m.dateIsBefore(8,15,8,15));
+      System.out.println(m.dateIsBefore(8,15,8,16));
    }
 }
